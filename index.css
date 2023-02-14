@@ -189,3 +189,33 @@
         0 10px 10px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.3);
     }
   }
+
+
+  section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+
+  .column{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      width: 45%;
+  }
+  .Professor_Info_Card{
+      width: 250px;
+      height: 250px;
+      margin: 10px;
+      background-color: red;
+  }
+
+  .profile_pic{
+      width: 30%;
+      height: 30%;
+      background-color: blue;
+      margin: 10px
+  }
